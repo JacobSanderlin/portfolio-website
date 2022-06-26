@@ -9,17 +9,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
     <header class="header"> 
         <div class="header-info">
-            <img src="./images/my-face.jpg">
+            <img class="port" src="./images/my-face.jpg" alt="Me">
             <h3>Jacob Sanderlin</h3>
             <h4>Computer Science Student</h4>
-            <button type="button" class="btn"><a href="#">See More</a></button>
+            <button type="button" class="btn"><a href="#experience">See More</a></button>
         </div>
     </header>
 
-    <section class="section experience-sec">
+    <section id="experience" class="section experience-sec">
         <div class="section-header">Languages & Frameworks</div>
         <div class="experience-container">
             <div class="experience-item">
@@ -38,14 +37,14 @@
 
     </section>
 
-    <section class="section contact-sec">
+    <section id="contact" class="section contact-sec">
         <div class="section-header">Contact Me</div>
         <div class="contact-container">
             <form id="contact-form">
                 <label for="name">Name</label>
-                <input type="text" name="name">
+                <input type="text" name="name" placeholder="Full Name">
                 <label for="email">Email</label>
-                <input type="text" name="email">
+                <input type="text" name="email" placeholder="Email Address">
                 <label for="content">Content</label>
                 <textarea name="content" id="content" placeholder="Write Your Message"></textarea>
                 <button type="submit" class="btn">Send</button>
