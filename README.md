@@ -1,3 +1,3 @@
-﻿# portfolio-website
+# Jacob Sanderlin's Portfolio Site
 
-1mccreeper.github.io/portfolio-website
+[My Portfolio Site](https://1mccreeper.github.io/portfolio-website/)
