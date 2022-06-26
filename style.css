@@ -55,18 +55,15 @@ body
 
 .footer {
     color: #a9b0ba;
-
-    .blue {
-
-        i {
-            color: #d2d6dc;
-
-            &:hover {
-                background: #3c7fc6;
-                color: #d2d6dc;
-            }
-        }
-    }
+}
+.container-fluid {
+    padding: 0 1em;
+}
+  
+.container {
+    margin: 0 auto;
+    max-width: 996px;
+}
 
     .fa-chevron-up {
         cursor: pointer;
