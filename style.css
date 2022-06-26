@@ -27,26 +27,6 @@ body
     border: 6px #ccc solid;
     width: 16%;
 }
-
-.icon-row {
-    margin: 45px auto;
-    width: 100%;
-
-    i {
-        border-radius: 4px;
-        cursor: pointer;
-        font-size: 44px;
-        margin: 0px 20px;
-        padding: 20px 30px;
-        transition: all 400ms ease-in-out;
-
-        &:hover {
-            background: #FFF;
-            color: #ca5549;
-        }
-    }
-}
-
 .second {
     background: #f2f2f2;
     color: #a9b0ba;
@@ -63,26 +43,4 @@ body
 .container {
     margin: 0 auto;
     max-width: 996px;
-}
-
-    .fa-chevron-up {
-        cursor: pointer;
-        font-size: 34px;
-        margin: 40px 0 0 0;
-        position: relative;
-        top: 0px;
-
-        &:hover {
-            -webkit-animation: up 1s infinite;
-            animation: up 1s infinite;
-        }
-    }
-}
-
-@-webkit-keyframes up {
-    0% {top: 0px;}
-    25% {top: 5px;}
-    50% {top: 0px;}
-    75% {top: 5px;}
-    100% {top: 0px;}
 }
