@@ -1,1 +1,3 @@
-(portfolio-website)[1mccreeper.github.io/portfolio-website/]
+# portfolio-website
+
+[GitHub Pages](https://1mccreeper.github.io/portfolio-website/)
