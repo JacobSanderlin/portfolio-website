@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Broken Clock</title>
     <script src="https://kit.fontawesome.com/a0c2d926e5.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" 
+    integrity="sha256-ihAoc6M/JPfrIiIeayPE9xjin4UWjsx2mjW/rtmxLM4=" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/ui/1.12.0-rc.2/jquery-ui.js" 
+    integrity="sha256-6HSLgn6Ao3PKc5ci8rwZfb//5QUu3ge2/Sw9KfLuvr8=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="calender.css">
 </head>
 <body>
@@ -23,5 +28,127 @@
             <li class="active"><a href="https://1mccreeper.github.io/portfolio-website/clock/calender"><i class="fa fa-calendar"></i> Calendar</a></li>
           </ul>
         </div>
+      </section>
+      <section id="content">
+        <div id="header">
+          <div class="header-nav">
+            <div class="menu-button">
+              <!--<i class="fa fa-navicon"></i>-->
+            </div>
+            <div class="nav">
+              <ul>
+                <li class="nav-settings">
+                  <div class="font-icon"><i class="fa fa-tasks"></i></div>
+                </li>
+                <li class="nav-mail">
+                  <div class="font-icon"><i class="fa fa-envelope-o"></i></div>
+                </li>
+                <li class="nav-calendar">
+                  <div class="font-icon"><i class="fa fa-calendar"></i></div>
+                </li>
+                <li class="nav-chat">
+                  <div class="font-icon"><i class="fa fa-comments-o"></i></div>
+                </li>
+                <li class="nav-profile">
+                  <div class="nav-profile-image">
+                    <img src="images/my-face.jpg" alt="profile-img" alt="profile image">
+                    <div class="nav-profile-name">Jacob Sanderlin<i class="fa fa-caret-down"></i></div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="table-cont">
+            <div class="header">
+                <button class="prev"></button>
+                <span class="gd"></span>
+                <button class="next"></button>
+            </div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <td>SUN</td>
+                        <td>MON</td>
+                        <td>TUE</td>
+                        <td>WED</td>
+                        <td>THU</td>
+                        <td>FRI</td>
+                        <td>SAT</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="row-1">
+                        <td class="b-0">&nbsp;</td>
+                        <td class="b-1">&nbsp;</td>
+                        <td class="b-2">&nbsp;</td>
+                        <td class="b-3">&nbsp;</td>
+                        <td class="b-4">&nbsp;</td>
+                        <td class="b-5">&nbsp;</td>
+                        <td class="b-6">&nbsp;</td>
+                        <td class="b-7">&nbsp;</td>
+                        <td class="b-8">&nbsp;</td>
+                        <td class="b-9">&nbsp;</td>
+                        <td class="b-10">&nbsp;</td>
+                        <td class="b-11">&nbsp;</td>
+                        <td class="b-12">&nbsp;</td>
+                        <td class="b-13">&nbsp;</td>
+                        <td class="b-14">&nbsp;</td>
+                        <td class="b-15">&nbsp;</td>
+                        <td class="b-16">&nbsp;</td>
+                        <td class="b-17">&nbsp;</td>
+                        <td class="b-18">&nbsp;</td>
+                        <td class="b-19">&nbsp;</td>
+                        <td class="b-20">&nbsp;</td>
+                        <td class="b-21">&nbsp;</td>
+                        <td class="b-22">&nbsp;</td>
+                        <td class="b-23">&nbsp;</td>
+                        <td class="b-24">&nbsp;</td>
+                        <td class="b-25">&nbsp;</td>
+                        <td class="b-26">&nbsp;</td>
+                        <td class="b-27">&nbsp;</td>
+                        <td class="b-28">&nbsp;</td>
+                        <td class="b-29">&nbsp;</td>
+                        <td class="b-30">&nbsp;</td>
+                        <td class="b-31">&nbsp;</td>
+                        <td class="b-32">&nbsp;</td>
+                        <td class="b-33">&nbsp;</td>
+                        <td class="b-34">&nbsp;</td>
+                        <td class="b-35">&nbsp;</td>
+                        <td class="b-36">&nbsp;</td>
+                        <td class="b-37">&nbsp;</td>
+                        <td class="b-38">&nbsp;</td>
+                        <td class="b-39">&nbsp;</td>
+                        <td class="b-40">&nbsp;</td>
+                        <td class="b-41">&nbsp;</td>
+                    </tr>			
+                </tbody>
+            </table>
+        </div>
+        <div class="go-to">
+            <input class="sel-year" placeholder="yyyy"></input>
+            <select class="sel-month">
+                <option value="0">Jan</option>
+                <option value="1">Feb</option>
+                <option value="2">Mar</option>
+                <option value="3">Apr</option>
+                <option value="4">May</option>
+                <option value="5">Jun</option>
+                <option value="6">Jul</option>
+                <option value="7">Aug</option>
+                <option value="8">Sep</option>
+                <option value="9">Oct</option>
+                <option value="10">Nov</option>
+                <option value="11">Dec</option>
+            </select>
+            <select class="sel-date">
+            </select>
+            <button class="go">GO</button>
+            <p class="close">X</p>
+        </div>
+        <p class="d1"></p>
+        <p class="d2"></p>
+        <p class="d3"></p>
+        <p class="d4"></p>
       </section>
 </body>
