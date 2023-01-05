@@ -30,7 +30,7 @@
                     I currently enjoy working on application design, database design, and web development. I hope to fill this portfolio as time moves on with any advances I make.
                 </p>
                 <div class="btn-con">
-                    <a href="#" class="main-btn">
+                    <a href="files/jacob_sanderlinCV.pdf" download="Jacob_SanderlinCV" class="main-btn">
                         <span class="btn-text">Download CV</span>
                         <span class="btn-icon"><i class="fa-sharp fa-solid fa-download"></i></span>
                     </a>
@@ -51,7 +51,7 @@
                         Previously I had competed in Science Olympiad in my highschool making it to state my Senior year, as well as holding leadership positions in our schools marching band that went on to win multiple grand championships throughout my time there.
                     </p>
                     <div class="btn-con">
-                        <a href="#" class="main-btn">
+                        <a href="files/jacob_sanderlinCV.pdf" download="Jacob_SanderlinCV" class="main-btn">
                             <span class="btn-text">Download CV</span>
                             <span class="btn-icon"><i class="fa-sharp fa-solid fa-download"></i></span>
                         </a>
@@ -290,24 +290,40 @@
                 </div>
                 
                 <div class="right-contact">
-                    <form action="" class="contact-form">
+                    <form action="email.php" name="myemailform" method="post" class="contact-form">
                         <div class="input-control i-c-2">
-                            <input type="text" required placeholder="YOUR NAME">
-                            <input type="email" required placeholder="YOUR EMAIL">
+                            <input type="text" name="name" required placeholder="YOUR NAME">
+                            <input type="email" name="email" required placeholder="YOUR EMAIL">
                         </div>
                         <div class="input-control">
-                            <input type="text" required placeholder="ENTER SUBJECT">
+                            <input type="text" name="subject" required placeholder="ENTER SUBJECT">
                         </div>
                         <div class="input-control">
-                            <textarea name="" id="" cols="15" rows="8" placeholder="Message Here..."></textarea>
+                            <textarea name="message" id="" cols="15" rows="8" placeholder="Message Here..."></textarea>
                         </div>
-                        <div class="submit-btn">
+                        <button type="submit" value="Submit" class="submit-btn">
                             <a href="#" class="main-btn">
                                 <span class="btn-text">Submit</span>
                                 <span class="btn-icon"><i class="fa-solid fa-share"></i></span>
                             </a>
-                        </div>
+                        </button>
+                        <!--<index type="submit" class="submit-btn">
+                            <a href="#" class="main-btn">
+                                <span class="btn-text">Submit</span>
+                                <span class="btn-icon"><i class="fa-solid fa-share"></i></span>
+                            </a>
+                        </index>-->
                     </form>
+                    <script language="JavaScript">
+                        // Code for validating the form
+                        // Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
+                        // for details
+                        var frmvalidator  = new Validator("myemailform");
+                        frmvalidator.addValidation("name","req","Please provide your name"); 
+                        frmvalidator.addValidation("email","req","Please provide your email"); 
+                        frmvalidator.addValidation("subject", "req", "Please provide a subject");
+                        frmvalidator.addValidation("email","email","Please enter a valid email address"); 
+                        </script>
                 </div>
             </div>
         </section>
